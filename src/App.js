@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Hero from "./components/Hero";
 import Nav from "./components/Nav";
+import Platforms from "./components/platforms/Platforms";
 import Support from "./components/Support";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <About />
       <Support />
+      <Platforms />
     </>
   );
 }
