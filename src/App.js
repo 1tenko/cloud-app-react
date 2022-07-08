@@ -2,6 +2,7 @@ import About from "./components/About";
 import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import Platforms from "./components/platforms/Platforms";
+import Pricing from "./components/Pricing";
 import Support from "./components/Support";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Support />
       <Platforms />
+      <Pricing />
     </>
   );
 }
